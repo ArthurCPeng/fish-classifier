@@ -1,3 +1,10 @@
+#*** A Large-Scale Dataset for Segmentation and Classification ***
+#Authors: O. Ulucan, D. Karakaya, M. Turkan
+#Department of Electrical and Electronics Engineering, Izmir University of Economics, Izmir, Turkey
+#Corresponding author: M. Turkan
+#Contact Information: mehmet.turkan@ieu.edu.tr
+#https://www.kaggle.com/crowww/a-large-scale-fish-dataset
+
 import numpy as np
 import tensorflow as tf
 from PIL import Image
