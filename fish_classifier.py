@@ -166,9 +166,9 @@ else:
     print("Loading existing model")
     model = tf.keras.models.load_model("fish_classifier_original.h5")
     model.compile(
-        optimizer=optimizers.Adam(learning_rate=0.000001),
+        optimizer=optimizers.Adam(learning_rate=0.001),
         loss="categorical_crossentropy", #error raised if loss is sparse_categorical_crossentropy
-        metrics = ["categorical_accuracy"]
+        metrics = ["accuracy"]
     )
 
 print(model.summary())
